@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td,tfoot{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col span="1"  style="background-color: blue;">
+        <col span="2" >
+
+    </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="3" style="background-color: bisque;">
+                    Name
+                </th>
+                <th>
+                    CGPA
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="3">
+                Kaushik
+            </td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>pranay</td>
+            <td>50%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+                Nidhi
+            </td>
+            <td>33</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
