@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssbasics1hw.html">
+<style>
+    .div1{
+        width:234px;
+        height: 209px;
+        border: 1px solid black;
+        margin:20px 2px 2px 2px;
+        box-shadow: 1px 1px 1px 1px black;
+        box-sizing: content-box;
+        /* border-radius: 5px; */
+
+        
+    }
+    #div2{
+        height: 100px;
+        width: 100px;
+        
+    }
+    #img{
+        height: 100px;
+        width: 195px;
+        margin: 15px 0 20px 10px;
+        border-radius: 6px;
+       
+    }
+    p{
+        font-size: 20px;
+        padding: 4px;
+
+    }
+    .pricing{
+        display: flex;
+        margin: 2px 0 2px 2px;
+        font-size: smaller;
+    }
+    #price{
+       margin: -22px 2px 2px 2px;
+        padding-top: 2px;
+        color: rgb(114, 19, 238);
+        font-family:Rubik,sans-serif ;
+        font-size: medium;
+
+    }
+    #discount-price{
+        margin: -24px 2px 2px 2px;
+        font-family:Rubik,sans-serif ;
+        color: grey;
+        font-size: medium;
+    }
+    #discount-per{
+        border: 2px;
+        background-color: #1dd1a1;
+        border-radius: 9px;
+        font-size: small;
+        margin: -23px 4px 9px ;
+    }
+</style>
+</head>
+
+<body>
+    <div class="div1">
+        <div id="div2">
+            <img src="https://codehelp.s3.ap-south-1.amazonaws.com/large_Web_Dev_670f900667.jpg" alt="#" id="img">
+
+        </div>
+        <div>
+            <p> <b> Web Development Master  <br>Course @dot Batch </b></p>
+            <span class="pricing">
+                <p id="price"> &#x20b9 4500</p>
+               <p id="discount-price"> &#x20b9 
+                <del>6999</del>
+               </p>
+               <p id="discount-per">42% off</p>
+            </span>
+        </div>
+        
+    </div>
+</body>
+</html>
