@@ -78,3 +78,35 @@ h1{
     /* transform: scalex(5); */
     transform: skew(45deg);
 }
+.threeD{
+    height: 400px;
+    margin: 16px 2px 2px 2px;
+    width: 500px;
+    background-color: brown;
+    border: 2px solid black;
+    inline-size: auto;
+}
+.static{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.translated{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transform: perspective(100px) translateZ(-10px);
+
+}
+.scaled{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0px 0px 0px 122px;
+    background-color: aqua;
+    transform: perspective(350px) scaleZ(4) rotateX(35deg) rotateZ(45deg);
+   
+}
+

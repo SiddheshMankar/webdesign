@@ -1,0 +1,62 @@
+.container{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    /* default mai horizontal flex hota hai toh ye ise vertical mai karta hai */
+ 
+    /* flex-direction: column; */
+    
+    /*  width same ragei but position change ho sakti hai flex wrap mai*/
+    /* flex-wrap: wrap; */
+    
+    /* position reverse ho jayegi wrap reverse mai */
+    /* flex-wrap: wrap-reverse; */
+    
+    /* flex flow flex direction aur wrap dono ko saath mai use karta hai */
+    /* flex-flow: row wrap; */
+
+/* start at starting point */
+    justify-content: flex-start;
+
+    /* equal spacing btw boxes */
+    justify-content: space-around;
+
+    justify-content: space-evenly;
+
+    /* equal space btw boxws aur chipak jayega corner */
+    justify-content: space-between;
+
+    /* cross axis kai uppar item ko align karti hai */
+    align-items: center;
+
+    align-items: stretch; 
+    /* at baseline stretch niche se match ho jayegi */
+    
+    align-items: baseline;
+    
+    /* rows ki alignment ko handle karta hai */
+
+    align-content: center;
+
+}
+.box{
+    border: 1px solid black;
+    /*  sub box ek saath grow honge*/
+    /* flex-grow: 2; */
+
+    /* ek saath chote honge box speed badegi box shrink hone ki */
+    flex-shrink: 4;
+
+    /* text overflow hidden nahi hota hai but width main overflow content hidden ho jata hai */
+    flex-basis: 100px;
+
+}
+#box1{
+    /* container ko shift karne ka kamm karta hai position kai hisab se */
+    order: 1;
+}
+#box3{
+    order:8;
+    /* ek hi item ki flex ki property change karna ho toh */
+    align-self: stretch;
+}
