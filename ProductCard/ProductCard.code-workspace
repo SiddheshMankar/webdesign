@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:/Users/TCD/Downloads/product card/product card/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProductCard",
+		"liveServer.settings.port": 5501
+	}
+}
