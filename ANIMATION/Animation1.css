@@ -1,0 +1,58 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: 3px solid black;
+    display: flex;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: blue;
+    border: 2px solid orange;
+    transition: 2s;
+    
+     /* transition-delay: 5s; */
+     transition: transform  rotate(45deg) 3s  0s;
+     animation: sid 3s ease-out 1s 1;
+     /* animation-direction: alternate; */
+     animation-fill-mode:forwards ;
+}
+/* 
+ .box:hover{
+    
+    /* background-color: brown;
+    height: 500px;
+    width: 500px;
+    /* margin: 50px;
+    padding: 50px; */
+
+       
+   
+
+    /* transform:  translateX(800px) rotate(180deg);  */
+/* }  */ 
+
+@keyframes sid {
+   0%{
+    width:150px;
+    background-color: orange;
+    transform: rotate(0deg);
+   }
+   30%{
+    width: 35%;
+    background-color: white;
+    transform: rotate(30deg);
+   }
+   65%{
+    width: 70%;
+    background-color: green;
+    transform: rotate(45deg);
+   }
+   100%{
+    width: 100%;
+    background-color: blue;
+    transform: rotate(90deg);
+   }
+}
