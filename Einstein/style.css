@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: linear-gradient(270deg, #CF531B 0%, rgba(156, 50, 3, 0.874931) 76.45%, rgba(0, 0, 0, 0.8) 122.25%);
+     position: relative;
+    height: 800px;
+    width: 1600px; 
+    
+    
+  
+   
+    border-radius: 0px;
+     display: flex;
+    overflow-y: auto;
+} 
+p{
+    position: absolute;
+    width: 51px;
+    height: 47px;
+    left: 46px;
+    top: 35px;
+
+font-family: 'Rosario';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+border: 1px solid #FFFFFF;
+}
+.search{
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 100px;
+    width: 23px;
+    color: white;
+    font-weight: 400;
+font-size: 36px;
+/* left: 20px; */
+
+position: absolute;
+left: 13.02%;
+right: 90.88%;
+top: 4%;
+bottom: 35.71%;
+align-items: center;
+justify-content: center;
+
+/* border: 1px solid #FFFFFF; */
+
+}
+.search-icon{
+    width: 20px;
+    justify-content: center;
+}
+.inputt{
+    position: absolute;
+    width: 75px;
+    height: 16px;
+    left: 24px;
+    top: 7px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid white;
+
+    /* background: linear-gradient(270deg, #CF531B 0%, rgba(156, 50, 3, 0.874931) 76.45%, rgba(0, 0, 0, 0.8) 122.25%); */
+}
